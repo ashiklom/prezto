@@ -5,9 +5,21 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
+# Colors
+export TERM=xterm-256color
+
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
 # Customize to your needs...
+
+# Aliases
+alias ls='ls --color=auto'
+alias evn='\vim -c Geeknote'
+alias vi=nvim
+alias vim=nvim
+alias scc='ssh ashiklom@geo.bu.edu'
+alias cd.rtm='cd ~/Documents/Unsynced/pecan/modules/rtm'
+alias cd.us='cd ~/Documents/Unsynced'
