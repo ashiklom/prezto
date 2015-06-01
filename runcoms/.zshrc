@@ -6,7 +6,7 @@
 #
 
 # Colors
-export TERM=xterm-256color
+#export TERM=xterm-256color
 
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
@@ -16,6 +16,7 @@ fi
 # Customize to your needs...
 
 # Aliases
+unalias rm
 alias ls='ls --color=auto'
 alias evn='\vim -c Geeknote'
 alias vi=nvim
