@@ -24,3 +24,4 @@ alias vim=nvim
 alias scc='ssh ashiklom@geo.bu.edu'
 alias cd.rtm='cd ~/Documents/Unsynced/pecan/modules/rtm'
 alias cd.us='cd ~/Documents/Unsynced'
+alias fsize='~/dotfiles/Xresources/fsize'
