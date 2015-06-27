@@ -1,7 +1,7 @@
-#
 # Executes commands at the start of an interactive session.
+# Author: Alexey Shiklomanov
 #
-# Authors:
+# Original authors:
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
