@@ -5,6 +5,9 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
+# Launch X if it isn't up already
+[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] exec startx
+
 # Execute code that does not affect the current session in the background.
 {
   # Compile the completion dump to increase startup speed.
