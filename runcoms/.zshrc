@@ -18,10 +18,7 @@ fi
 # Aliases
 unalias rm
 alias ls='ls --color=auto'
-alias evn='\vim -c Geeknote'
-alias vi=nvim
-alias vim=nvim
-alias scc='ssh ashiklom@geo.bu.edu'
-alias cd.rtm='cd ~/Documents/Unsynced/pecan/modules/rtm'
-alias cd.us='cd ~/Documents/Unsynced'
+alias scc='ssh -AY ashiklom@geo.bu.edu'
+alias cd.rtm='cd ~/Documents/pecan/modules/rtm'
+alias cdd='cd ~/Documents'
 alias fsize='~/dotfiles/Xresources/fsize'
