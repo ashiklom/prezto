@@ -19,9 +19,5 @@ eval "$(dircolors ~/dotfiles/dircolors)"
 # Aliases
 unalias rm
 alias ls='ls --color=auto'
-alias scc='ssh -AY ashiklom@geo.bu.edu'
-alias cd.rtm='cd ~/Documents/pecan/modules/rtm'
-alias cdd='cd ~/Documents'
-alias fsize='~/dotfiles/Xresources/fsize'
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 alias vim='nvim'

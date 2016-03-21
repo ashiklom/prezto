@@ -45,6 +45,7 @@ typeset -gU cdpath fpath mailpath path
 path=(
   /usr/local/{bin,sbin}
   $path
+  $HOME/.gem/ruby/2.1.0/bin
 )
 
 #
