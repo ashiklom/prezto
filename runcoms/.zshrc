@@ -19,5 +19,8 @@ eval "$(dircolors ~/dotfiles/dircolors)"
 # Aliases
 unalias rm
 alias ls='ls --color=auto'
+export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 alias vim='nvim'
+alias aptinstall='sudo apt-get install'
+alias gcadd="gcalcli add --calendar 'Alexey Shiklomanov'"
